@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014182045577",
+    "project_id": "note-book-dcb2e",
+    "storage_bucket": "note-book-dcb2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014182045577:android:4520820dbce72a9e592358",
+        "android_client_info": {
+          "package_name": "com.pranto.NoteBook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014182045577-065nnmc0hh1gc790a32pj36juaur1rai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZD0WSCHAD7_8by0eHhK2eGA6DGI2iXbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014182045577-065nnmc0hh1gc790a32pj36juaur1rai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

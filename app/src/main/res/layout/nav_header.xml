@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/mandala">
+
+        <TextView
+            android:id="@+id/FireNotes"
+            android:layout_width="310dp"
+            android:layout_height="45dp"
+            android:fontFamily="serif"
+            android:text="Note Book"
+            android:textAllCaps="true"
+            android:textColor="#F0FBEB"
+            android:textSize="40dp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.16000003"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="264dp"
+            android:layout_height="41dp"
+            android:fontFamily="serif"
+            android:text="Transform your phone into a NOTEBOOK"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.233"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.445"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/userDisplayName"
+            android:layout_width="324dp"
+            android:layout_height="22dp"
+            android:text="Sample Name"
+            android:textColor="#010607"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.436"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/userDisplayEmail"
+            android:layout_width="309dp"
+            android:layout_height="29dp"
+            android:text="Sample Email"
+            android:textColor="#100B0B"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.84000003"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
